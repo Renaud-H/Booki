@@ -1,3 +1,4 @@
+/* RESET CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -172,9 +173,10 @@ header .header_nav__link:hover a {
 }
 .city-form__destination {
     width: 200px;
-    /*  */
-    border: 0px;
-    /*  */
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    border-right: 0;
+    border-left: 0;
 }
 .city-form__submit-button {
     background-color: #0065FC;
@@ -185,14 +187,14 @@ header .header_nav__link:hover a {
     width: 150px;
 }
                                         /* FILTERS */
-.div_filters{
+.div_filters {
     display: flex;
     flex-direction: row;
     height: 48px;
     width: 1000px;
     margin-top: 23px;
 }
-.txtfilter{
+.txtfilter {
     margin-top: 12px;
     margin-right: 20px;
 }
@@ -200,7 +202,7 @@ header .header_nav__link:hover a {
     display: flex;
     font-weight: bold;
 } */
-.div_filters_ico_2{
+.div_filters_ico_2 {
     display: flex;
     border: solid #F2F2F2 2px;
     border-radius: 20px;
@@ -210,70 +212,71 @@ header .header_nav__link:hover a {
     font-weight: bold;
 }
 .div_filters_ico_2:hover {
-    background-color: #0065FC;
-    opacity: 0.3;
+    background-color: #0065fc62;
 }
 
                                         /* INFOBAR */
-.infobar{
+.infobar {
     margin-bottom: 39px;
     margin-top: 40px;
 }
                                         /* BOX */
-.box{
+.box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.box2{
+.box2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
                                         /* HEBERGEMENTS */
-.txth{
+.txth {
     width: 880px ;
     margin-left: 30px;
     margin-top: 42px;
     height: 26px;
 }
-.txth2{
+.txth2 {
     margin-left: 30px;
     height: 26px;
 }
 .nom_hebergement {
     font-weight: 700;
 }
-.hebergements{
-    width: 880px;
+.hebergements {
+    width: 950px;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-bottom: 60px;
 }
-.cards_div{
+.cards_div {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 29px;
 }
-.card_div_h{
+.card_div_h {
     width: 246px;
     height: 199px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     background-color: white;
     margin-bottom: 30px;
     box-shadow: 1px 1px 10px lightgray;
 }
-.card_img_h{
+.card_img_h {
     width: 246px;
     height: 124px;
     border-radius: 20px 20px 0 0;
     border: solid white 5px;
 }
                                         /* POPULAIRES */
-.txtp{
+.txtp {
     width: 420px;
     margin-left: 37px;
     margin-top: 41px;
@@ -281,7 +284,7 @@ header .header_nav__link:hover a {
 .nom_populaire {
     font-weight: 700;
 }
-.populaires{
+.populaires {
     display: flex;
     flex-wrap: wrap;
     width: 420px;
@@ -290,7 +293,7 @@ header .header_nav__link:hover a {
     border-radius: 20px;
     justify-content: center;
 }
-.card_div_p{
+.card_div_p {
     width: 343px;
     height: 144px;
     border-radius: 20px;
@@ -298,34 +301,36 @@ header .header_nav__link:hover a {
     background-color: white;
     box-shadow: 1px 1px 10px lightgray;
 }
-.paragraph{
+.paragraph {
     display: flex;
     flex-direction: column;
     padding-left: 15px;
     padding-top: 16px;
     padding-right: 22px;
 }
-.card_img_p{
+.card_img_p {
     width: 137px;
     height: 144px;
     border-radius: 20px 0px 0px 20px;
     border: solid white 5px;
 }
-.line_2{
+.line_2 {
     padding-top: 7px;
     font-size: 14px;
     line-height: 16.44px;
 }
-.notation_p{
+.notation_p {
     padding-top: 40px;
     padding-bottom: 12px;
 }
                                         /* ACTIVITES */
 .card_div_a {
+    height: 445px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     background-color: white;
     margin-top: 20px;
-    height: 445px;
     box-shadow: 1px 1px 10px lightgray;
 }
 .card_img {
@@ -363,4 +368,13 @@ footer p {
 footer a {
     text-decoration: none;
     cursor: pointer;
+}
+/* TABLET */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+
 }
