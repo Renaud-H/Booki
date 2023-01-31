@@ -391,7 +391,72 @@ footer a {
 }
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+body {
+    max-width: 880px;
+}
 
+.form {
+
+}
+.div_filters {
+    width: auto;
+}
+.box {
+    flex-direction: column;
+}
+.hebergements {
+    width: auto;
+}
+.txtp {
+    height: 26px;
+    display: flex;
+    width: 100%;
+}
+.fa-chart-line {
+    position: absolute;
+    right: 40px;
+
+}
+.populaires {
+    width: auto;
+    height: 278px;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+}
+.card_div_p {
+    width: 252px;
+    height: 144px;
+}
+.card_img_p {
+    width: 106px;
+    height: 144px;
+}
+.paragraph {
+    width: auto;
+    padding-right: 0px;
+}
+.nom_populaire {
+    font-size: 14px;
+    padding-right: 22px;
+}
+.info_populaire {
+    font-size: 13px;
+}
+.box2 {
+    width: auto;
+}
+.card_div_a {
+    height: 267px;
+    width: 182px;
+}
+.card_img, .card_img_a1, .card_img_a2 {
+    height: 211px;
+    width: 182px;
+}
+.nom_activite {
+    margin-top: 10px;
+    justify-content: baseline;
+}
 }
 
 /* PHONE */
