@@ -185,6 +185,7 @@ header .header_nav__link:hover a {
     border-radius: 0px 15px 15px 0px;
     padding: 0px 15px;
     width: 150px;
+    font-size: 18px;
 }
                                         /* FILTERS */
 .div_filters {
@@ -242,9 +243,6 @@ header .header_nav__link:hover a {
     margin-left: 30px;
     height: 26px;
 }
-.nom_hebergement {
-    font-weight: 700;
-}
 .hebergements {
     width: 950px;
     height: 626px;
@@ -268,6 +266,7 @@ header .header_nav__link:hover a {
     background-color: white;
     margin-bottom: 30px;
     box-shadow: 1px 1px 10px lightgray;
+    position: relative;
 }
 .card_img_h {
     width: 246px;
@@ -275,20 +274,31 @@ header .header_nav__link:hover a {
     border-radius: 20px 20px 0 0;
     border: solid white 5px;
 }
+.nom_hebergement {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+.info_hebergement {
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+.notation_hebergement {
+    margin-left: 16px;
+    position: absolute;
+    bottom: 10px;
+}
                                         /* POPULAIRES */
 .txtp {
     width: 420px;
     margin-left: 37px;
     margin-top: 41px;
 }
-.nom_populaire {
-    font-weight: 700;
-}
 .populaires {
     display: flex;
     flex-wrap: wrap;
     width: 420px;
-    height: 625px;
+    height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
     justify-content: center;
@@ -307,6 +317,7 @@ header .header_nav__link:hover a {
     padding-left: 15px;
     padding-top: 16px;
     padding-right: 22px;
+    position: relative;
 }
 .card_img_p {
     width: 137px;
@@ -319,9 +330,16 @@ header .header_nav__link:hover a {
     font-size: 14px;
     line-height: 16.44px;
 }
-.notation_p {
-    padding-top: 40px;
-    padding-bottom: 12px;
+.nom_populaire {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.info_populaire{
+    margin-bottom: 10px;
+}
+.notation_populaire {
+    position: absolute;
+    bottom: 10px;
 }
                                         /* ACTIVITES */
 .card_div_a {
@@ -346,6 +364,8 @@ header .header_nav__link:hover a {
 }
 .nom_activite {
     font-weight: 700;
+    margin-top: 20px;
+    margin-left: 19px;
 }
                                         /* FOOTER */
 footer {
