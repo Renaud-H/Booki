@@ -107,7 +107,7 @@ header .header_nav__link:hover a {
 
                                         /* ICONS */
 .fa-solid{
-    color: #0065FC  ;
+    color: #0065FC;
 }
 .fa-location-dot{
     color: black;
@@ -149,7 +149,8 @@ header .header_nav__link:hover a {
 }
 .fa-star{
     width: 12px;
-
+    height: 12px;
+    font-size: 12px;
 } 
 .blue{
     color: #0065FC;
@@ -161,7 +162,6 @@ header .header_nav__link:hover a {
 .form {
     height: 49px;
     display: flex;
-
 }
 ::placeholder{
     font-weight: 700;
@@ -234,7 +234,7 @@ header .header_nav__link:hover a {
 }
                                         /* HEBERGEMENTS */
 .txth {
-    width: 880px ;
+    width: auto ;
     margin-left: 30px;
     margin-top: 42px;
     height: 26px;
@@ -390,11 +390,11 @@ footer a {
     cursor: pointer;
 }
 /* TABLET */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-    
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
 }
 
 /* PHONE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 
 }
