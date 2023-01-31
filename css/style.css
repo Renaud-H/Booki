@@ -199,10 +199,6 @@ header .header_nav__link:hover a {
     margin-top: 12px;
     margin-right: 20px;
 }
-/* .div_filters_ico{
-    display: flex;
-    font-weight: bold;
-} */
 .div_filters_ico_2 {
     display: flex;
     border: solid #F2F2F2 2px;
@@ -394,10 +390,6 @@ footer a {
 body {
     max-width: 880px;
 }
-
-.form {
-
-}
 .div_filters {
     width: auto;
 }
@@ -411,10 +403,10 @@ body {
     height: 26px;
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 .fa-chart-line {
-    position: absolute;
-    right: 40px;
+    margin-right: 40px;
 
 }
 .populaires {
@@ -461,5 +453,60 @@ body {
 
 /* PHONE */
 @media screen and (max-width: 767px) {
+header {
+    flex-direction: column;
+}
+.header_image {
+    margin-top: 21px;
+    margin-bottom: 48px;
+}
+header .header_nav__link{
+    border-top: 0px solid;
+    border-bottom: 2px solid #fff;
+    padding: 0px 0px 0px 0px;
+}
+header .header_nav__link:hover {  
+    border-top: 0px solid;
+    border-bottom: 2px solid #0065FC;
 
+}
+header .header_nav__link:hover a {  
+    color: #0065FC;    
+}
+h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.paragraph_un {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    margin-top: 3px;
+}
+.form {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.div_filters {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+
+}
+.txtfilter {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.div_filters_ico_2 {
+    font-size: 11px;
+    margin-bottom: 17px;
+}
+.infobar {
+    margin-left: 20px;
+}
+.box {
+    flex-direction: column-reverse;
+}
 }
