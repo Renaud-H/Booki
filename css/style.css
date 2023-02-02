@@ -474,9 +474,10 @@ header {
     margin-bottom: 48px;
 }
 header .header_nav__link{
+    width: 50%;
     border-top: 0px solid;
-    border-bottom: 2px solid #fff;
-    padding: 0px 0px 0px 0px;
+    border-bottom: 2px solid #F2F2F2;
+    padding: 25px 50px 25px 50px;
 }
 header .header_nav__link:hover {  
     border-top: 0px solid;
@@ -527,6 +528,8 @@ h1 {
 }
 .fa-info{
     font-size: 13px;
+    width: 24px;
+    height: 24px;
 }
 .infobar_span {
     margin-left: 10px;
