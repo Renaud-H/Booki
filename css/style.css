@@ -539,10 +539,17 @@ h1 {
     border-radius: 0;
 }
 .txtp {
-    justify-content: space-between;
+    margin: 0;
+}
+.span_populaires {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 28px;
 }
 .fa-chart-line {
-    margin-left: 110px;
+    margin-left: 00px;
     font-size: 14px;
 }
 .hebergements {
