@@ -84,9 +84,6 @@ header .header_nav__link:hover {
 header .header_nav__link:hover a {  
     color: #0065FC;    
 }
-
-
-
                                         /* MAIN */
 .titre_un{
     font-weight: 700;
@@ -103,8 +100,6 @@ header .header_nav__link:hover a {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
-
                                         /* ICONS */
 .fa-solid{
     color: #0065FC;
@@ -122,6 +117,9 @@ header .header_nav__link:hover a {
     width: 50px;
     height: 49px;
     border-radius: 15px 0px 0px 15px;
+}
+.fa-magnifying-glass {
+    visibility: hidden;
 }
 .fa-money-bill-1-wave{
     padding-right: 10px;
@@ -241,6 +239,8 @@ header .header_nav__link:hover a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    height: 389px;
 }
                                         /* HEBERGEMENTS */
 .txth {
@@ -254,7 +254,8 @@ header .header_nav__link:hover a {
     height: 26px;
 }
 .hebergements {
-    width: 950px;
+    width: 63%;
+    max-width: 950px;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -279,21 +280,25 @@ header .header_nav__link:hover a {
     position: relative;
 }
 .card_img_h {
-    width: 246px;
+    width: 100%;
     height: 124px;
     border-radius: 20px 20px 0 0;
     border: solid white 5px;
+    object-fit: fill;
 }
 .nom_hebergement {
+    width: 100%;
     font-weight: 700;
     margin-bottom: 10px;
     margin-left: 16px;
 }
 .info_hebergement {
+    width: 100%;
     margin-bottom: 10px;
     margin-left: 16px;
 }
 .notation_hebergement {
+    width: 100%;
     margin-left: 16px;
     position: absolute;
     bottom: 10px;
@@ -307,7 +312,8 @@ header .header_nav__link:hover a {
 .populaires {
     display: flex;
     flex-wrap: wrap;
-    width: 420px;
+    width: 33%;
+    max-width: 420px;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -324,16 +330,18 @@ header .header_nav__link:hover a {
 .paragraph {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding-left: 15px;
     padding-top: 16px;
     padding-right: 22px;
     position: relative;
 }
 .card_img_p {
-    width: 137px;
+    width: 100%;
     height: 144px;
     border-radius: 20px 0px 0px 20px;
     border: solid white 5px;
+    object-fit: fill;
 }
 .line_2 {
     padding-top: 7px;
@@ -353,7 +361,9 @@ header .header_nav__link:hover a {
 }
                                         /* ACTIVITES */
 .card_div_a {
-    height: 445px;
+    width: 100%;
+    max-width: 302px;
+    height: 389px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -361,16 +371,12 @@ header .header_nav__link:hover a {
     margin-top: 20px;
     box-shadow: 1px 1px 10px lightgray;
 }
-.card_img {
+.card_img_a {
     border-radius: 20px 20px 0 0;
-}
-.card_img_a1 {
-    width: 302px;
+    width: 100%;
+    max-width: 302px;
     height: 389px;
-}
-.card_img_a2 {
-    width: 302px;
-    height: 389px;
+
 }
 .nom_activite {
     font-weight: 700;
@@ -399,7 +405,11 @@ footer a {
     text-decoration: none;
     cursor: pointer;
 }
-/* TABLET */
+                                        /* PC */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+
+}
+                                        /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 body {
     max-width: 880px;
@@ -420,14 +430,18 @@ body {
     justify-content: space-between;
 }
 .fa-chart-line {
-    margin-right: 40px;
+    margin: 0px 15px 0px 0px;
 
 }
 .populaires {
     width: auto;
     height: 278px;
     margin-bottom: 70px;
-    justify-content: space-evenly;
+}
+.span_populaires {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .card_div_p {
     width: 252px;
@@ -463,8 +477,7 @@ body {
     margin-top: 10px;
 }
 }
-
-/* PHONE */
+                                        /* PHONE */
 @media screen and (max-width: 767px) {
 header {
     flex-direction: column;
@@ -482,7 +495,6 @@ header .header_nav__link{
 header .header_nav__link:hover {  
     border-top: 0px solid;
     border-bottom: 2px solid #0065FC;
-
 }
 header .header_nav__link:hover a {  
     color: #0065FC;    
@@ -504,13 +516,34 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
 }
+.city-form__submit-button {
+    visibility: hidden;
+    background-color: #0065FC;
+    color: #ffffff;
+    border: 1px solid #0065FC;
+    border-radius: 0;
+    padding: 0;
+    width: 0;
+    font-size: 0;
+}
+.fa-magnifying-glass {
+    visibility: visible;
+    background-color: #0065FC;
+    color: #ffffff;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 15px;
+    width: 49px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
 .div_filters {
     width: auto;
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
     flex-wrap: wrap;
-
 }
 .txtfilter {
     width: 100%;
@@ -519,7 +552,6 @@ h1 {
 .div_filters_ico_2 {
     font-size: 11px;
     margin-bottom: 17px;
-
 }
 .infobar {
     display: flex;
@@ -575,7 +607,6 @@ h1 {
 .txt_a {
     margin-left: 20px;
     width: 210px;
-    
 }
 .card_div_a {
     margin-top: 0;
