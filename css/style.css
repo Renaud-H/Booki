@@ -80,6 +80,7 @@ header .header_nav__link{
 }
 header .header_nav__link:hover {  
     border-top: 2px solid #0065FC;
+    font-weight: 600; 
 }
 header .header_nav__link:hover a {  
     color: #0065FC;    
@@ -183,6 +184,8 @@ header .header_nav__link:hover a {
     border-top: 1px solid #ebebeb;
     border-right: 0;
     border-left: 0;
+    box-sizing: border-box;
+    padding: 10px 15px;
 }
 .city-form__submit-button {
     background-color: #0065FC;
@@ -206,6 +209,7 @@ header .header_nav__link:hover a {
     margin-right: 20px;
 }
 .div_filters_ico_2 {
+    cursor: pointer;
     display: flex;
     border: solid #F2F2F2 2px;
     border-radius: 20px;
@@ -215,7 +219,7 @@ header .header_nav__link:hover a {
     font-weight: bold;
 }
 .div_filters_ico_2:hover {
-    background-color: #0065fc62;
+    background-color: #DEEBFF;
 }
 
                                         /* INFOBAR */
@@ -340,11 +344,11 @@ header .header_nav__link:hover a {
     position: relative;
 }
 .card_img_p {
+    max-width: 137px;
     width: 100%;
-    height: 144px;
     border-radius: 20px 0px 0px 20px;
     border: solid white 5px;
-    object-fit: fill;
+    object-fit: cover;
 }
 .line_2 {
     padding-top: 7px;
@@ -421,9 +425,16 @@ body {
 .div_filters {
     width: auto;
 }
+.div_filters_ico_2 {
+    margin: 0 15px 0 0;
+}    
 .box {
     flex-direction: column;
     width: 100%;
+}
+.box2 {
+    width: auto;
+    height: auto;
 }
 .hebergements {
     width: fit-content;
@@ -436,11 +447,11 @@ body {
 }
 .fa-chart-line {
     margin: 0px 15px 0px 0px;
-
 }
 .populaires {
-    width: 880px;
-    max-width: none;
+    max-width: 991px;
+    min-width: 768px;
+    width: 100%;
     height: 278px;
     margin-bottom: 70px;
     display: flex;
@@ -497,11 +508,15 @@ header {
     margin-top: 21px;
     margin-bottom: 48px;
 }
+.header_nav {
+    width: 100%;
+}
 header .header_nav__link{
     width: 50%;
     border-top: 0px solid;
     border-bottom: 2px solid #F2F2F2;
     padding: 25px 50px 25px 50px;
+    text-align: center;
 }
 header .header_nav__link:hover {  
     border-top: 0px solid;
@@ -511,6 +526,7 @@ header .header_nav__link:hover a {
     color: #0065FC;    
 }
 body {
+    width: 100%;
     max-width: 375px;
 }
 h1 {
@@ -537,6 +553,9 @@ h1 {
     width: 0;
     font-size: 0;
 }
+.city-form__destination {
+    width: 300px; 
+    }    
 .fa-magnifying-glass {
     visibility: visible;
     background-color: #0065FC;
@@ -561,8 +580,10 @@ h1 {
     margin-bottom: 15px;
 }
 .div_filters_ico_2 {
+    width: 45%;
+    max-width: 160px;
     font-size: 11px;
-    margin-bottom: 17px;
+    margin: 0 10px 20px 0;
 }
 .infobar {
     display: flex;
@@ -581,7 +602,8 @@ h1 {
     flex-direction: column-reverse;
 }
 .populaires {
-    width: auto;
+    width: 100%;
+    max-width: 100%;
     border-radius: 0;
 }
 .txtp {
@@ -622,7 +644,7 @@ h1 {
 }
 .txt_a {
     margin-left: 20px;
-    width: 210px;
+    width: 100%;
 }
 .card_div_a {
     margin-top: 0;
@@ -648,5 +670,8 @@ footer h2 {
 }
 footer a {
     margin-left: 30px;
+}
+footer div {
+    margin-bottom: 20px;
 }
 }
