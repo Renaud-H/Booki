@@ -527,7 +527,7 @@ header .header_nav__link:hover a {
 }
 body {
     width: 100%;
-    max-width: 375px;
+    /* max-width: 375px; */
 }
 h1 {
     margin-left: 20px;
@@ -542,6 +542,7 @@ h1 {
 .form {
     margin-left: 20px;
     margin-right: 20px;
+    justify-content: center;
 }
 .city-form__submit-button {
     visibility: hidden;
@@ -554,7 +555,7 @@ h1 {
     font-size: 0;
 }
 .city-form__destination {
-    width: 300px; 
+    width: 70%; 
     }    
 .fa-magnifying-glass {
     visibility: visible;
@@ -581,8 +582,8 @@ h1 {
 }
 .div_filters_ico_2 {
     width: 45%;
-    max-width: 160px;
-    font-size: 11px;
+    max-width: 50%;
+    font-size: 18px;
     margin: 0 10px 20px 0;
 }
 .infobar {
@@ -605,20 +606,27 @@ h1 {
     width: 100%;
     max-width: 100%;
     border-radius: 0;
-}
-.txtp {
-    margin: 0;
+    justify-content: space-around;
 }
 .span_populaires {
-    width: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: 28px;
+    justify-content: space-between;
+}
+.txtp {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    margin-left: 30px;
 }
 .fa-chart-line {
-    margin-left: 00px;
-    font-size: 14px;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.card_div_p {
+    width: 90%;
 }
 .hebergements {
     border-radius: 0;
@@ -627,7 +635,8 @@ h1 {
     background-color: white;
 }
 .card_div_h {
-    width: 335px;
+    width: 90%;
+    max-width: 335px;
     max-width: none;
 }
 .card_img_h {
@@ -643,18 +652,19 @@ h1 {
     height: auto;
 }
 .txt_a {
-    margin-left: 20px;
+    margin-left: 30px;
     width: 100%;
 }
 .card_div_a {
     margin-top: 0;
     margin-bottom: 24px;
     width: 334px;
+    width: 90%;
     height: 190px;
     max-width: none;
 }
 .card_img_a {
-    width: 334px;
+    width: 100%;
     height: 134px;
     max-width: none;
 }
