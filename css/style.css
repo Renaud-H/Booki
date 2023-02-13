@@ -572,7 +572,7 @@ h1 {
 .div_filters {
     width: 100%;
     height: auto;
-    margin-left: 20px;
+    padding-left: 20px;
     margin-right: 0px;
     flex-wrap: wrap;
 }
@@ -581,7 +581,7 @@ h1 {
     margin-bottom: 15px;
 }
 .div_filters_ico_2 {
-    width: 48%;
+    /* width: 48%; */
     font-size: 12px;
     margin: 0 10px 20px 0;
 }
