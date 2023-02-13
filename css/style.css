@@ -570,10 +570,10 @@ h1 {
     vertical-align: middle;
 }
 .div_filters {
-    width: auto;
+    width: 100%;
     height: auto;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
     flex-wrap: wrap;
 }
 .txtfilter {
@@ -581,7 +581,8 @@ h1 {
     margin-bottom: 15px;
 }
 .div_filters_ico_2 {
-    font-size: 18px;
+    width: 48%;
+    font-size: 12px;
     margin: 0 10px 20px 0;
 }
 .infobar {
@@ -651,7 +652,7 @@ h1 {
 }
 .txt_a {
     margin-left: 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 .card_div_a {
     margin-top: 0;
