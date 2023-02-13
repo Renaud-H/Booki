@@ -461,8 +461,8 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .card_div_p {
     width: 252px;
@@ -581,8 +581,6 @@ h1 {
     margin-bottom: 15px;
 }
 .div_filters_ico_2 {
-    width: 45%;
-    max-width: 50%;
     font-size: 18px;
     margin: 0 10px 20px 0;
 }
@@ -683,5 +681,8 @@ footer a {
 }
 footer div {
     margin-bottom: 20px;
+}
+.nomargin {
+    margin-right: 0;
 }
 }
