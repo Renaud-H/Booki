@@ -101,6 +101,9 @@ header .header_nav__link:hover a {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.bold { 
+    font-weight: bold; 
+}
                                         /* ICONS */
 .fa-solid{
     color: #0065FC;
@@ -393,7 +396,7 @@ header .header_nav__link:hover a {
 }
 .nom_activite {
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-left: 19px;
 }
                                         /* FOOTER */
@@ -424,6 +427,9 @@ footer a {
 }
                                         /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+.header_logo, .titre_un, .paragraph_un, .form, .FILTERS, .infobar { 
+    margin-left:20px; margin-right:20px; 
+}
 body {
     max-width: 880px;
 }
@@ -502,6 +508,9 @@ body {
 .nom_activite {
     margin-top: 10px;
     margin-right: 15px;
+}
+.a_img_p { 
+    max-width: 100px; 
 }
 }
                                         /* PHONE */
