@@ -426,11 +426,11 @@ footer a {
     cursor: pointer;
 }
                                         /* PC */
-@media screen and (min-width: 992px) and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
 
 }
                                         /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
 .header_logo, .titre_un, .paragraph_un, .form, .FILTERS, .infobar { 
     margin-left:20px; margin-right:20px; 
 }
